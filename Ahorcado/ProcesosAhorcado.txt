@@ -1,0 +1,17 @@
+1.	Dibujar el poste
+2.	Determinar la palabra
+3.	Pasos para ahorcar:
+		Cabeza
+		Torso
+		Brazos
+		Pies
+		Ojos de x
+4.	Elegir las letras
+		Si la letra existe:
+			Pongo en la lista
+		Si no existe:
+			Agrego un trozo de ahorcado
+		Dibujo completado:
+			Perdí
+		Palabra completada:
+			Gané
