@@ -1,0 +1,27 @@
+body {
+    background: url('../image/bg.png');
+}
+/*Estilos del game board*/
+#gameBoard {
+  margin: auto;
+  margin-top: 50px;
+  width: 50%;
+  height: 600px;
+  border-style: solid;;
+  border-color: #66400e;
+  border-width: 20px;
+  background-color: #104a13;
+
+}
+/* Estilo para las cartas, todos los div internos, serán hijos del div tablero
+*/
+div#gameBoard > div {
+  background: url('../image/back-card.png') no-repeat;
+  border: #000 1px solid;
+  width: 71px;
+  height: 71px;
+  float: left;
+  margin: 10px;
+  padding: 20px;
+  cursor: pointer;
+}
