@@ -1,4 +1,5 @@
 font-color = #140505
+botones = url('../assets/images/botones.png')
 
 body
 	background-color #4D3434
@@ -17,6 +18,7 @@ section.container
 		height 50%
 		border-style solid
 		border-color font-color
+		border-width 10px
 
 	div#botones
 		margin 10% auto
@@ -32,27 +34,62 @@ section.container
 		height 50%
 		border-style solid
 		border-color font-color
+		border-radius 65px
+		border-width 6px
+		box-shadow: 5px 5px 2px #888888
+		
+	#piedra
+		background-image botones
+		background-repeat no-repeat
+		background-position -23px -68px
+		
+	#papel
+		background-image botones
+		background-repeat no-repeat
+		background-position -237px -68px
+		
+	#tijera
+		background-image botones
+		background-repeat no-repeat
+		background-position -447px -68px
+		
 		
 @media (min-width: 533px) and (orientation: landscape)		
 	canvas#juego
-		margin 5% 0 0 10%
+		margin 2% 0 0 10%
 		width 80%
-		height 60%
+		height 65%
 		border-style solid
 		border-color font-color
+		border-width 3px
 		
 	div#botones
-		margin 1.5% auto
-		width 60%
-		height 20%
+		margin 0.1% auto
+		width 65%
+		height 28%
 		border-style solid
 		border-color font-color
 		
 	div.boton
 		display inline-block
-		margin 1.5% 0% 0 5%
+		margin 0 0 0 5%
 		width 25%
-		height 80%
+		height 95%
 		border-style solid
 		border-color font-color
+		border-radius 50%
 		
+	#piedra
+		background-image botones
+		background-repeat no-repeat
+		background-position -26px -72px
+		
+	#papel
+		background-image botones
+		background-repeat no-repeat
+		background-position -240px -70px
+
+	#tijera
+		background-image botones
+		backgorund-repeat no-repeat
+		background-position -449px -71px
